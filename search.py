@@ -55,8 +55,8 @@ def check_all_pages_with_delay(parent_xml_url, search_string, delay=1):
         print('String not found on any pages.')
 
 if __name__ == "__main__":
-    parent_sitemap_url = 'https://publichealth.wustl.edu/wp-sitemap.xml'  # Replace with the actual parent sitemap URL
-    search_string = 'Hammill'  # Replace with the actual string you want to search for
+    parent_sitemap_url = '#'  # Replace with the actual parent sitemap URL
+    search_string = '#'  # Replace with the actual string you want to search for
     delay_between_requests = 1  # Adjust the delay as needed (in seconds)
     
     check_all_pages_with_delay(parent_sitemap_url, search_string, delay_between_requests)
